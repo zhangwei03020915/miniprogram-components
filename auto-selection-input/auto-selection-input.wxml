@@ -1,0 +1,4 @@
+<view class="auto-selection-input">
+  <input wx:if="{{focus}}" t-class="input" focus="{{focus}}" selection-start="{{ss}}" selection-end="{{se}}" bindinput="max" bindchange="onchange" type="number" maxlength="2" value="{{value}}" />
+  <text wx:else class="text" bind:tap="onfocus">{{value}}</text>
+</view>
