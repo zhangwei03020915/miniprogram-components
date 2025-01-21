@@ -1,0 +1,1 @@
+# miniprogram-autos-election-input
